@@ -1,8 +1,8 @@
-Smart File Explorer
+# Smart File Explorer
 
 A web-based file explorer built using Flask and core Data Structures.
 
-🚀 Features
+## 🚀 Features
 - 📁 Folder navigation system
 - ⬅️ Back/Forward navigation using Stack
 - 🕘 Recent files tracking using Deque (Linked List concept)
@@ -12,18 +12,17 @@ A web-based file explorer built using Flask and core Data Structures.
 - 🔍 Recursive file search
 - 🌐 Interactive web interface
 
-🧠 Data Structures Used
+## 🧠 Data Structures Used
 - Stack (Navigation)
-- Queue (Copy-Paste operations)
-- Linked List (Recent files)
+- Queue (Clipboard operations)
+- Deque (Recent files tracking)
 - Recursion (Search functionality)
 
-
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 - Python
 - Flask
 
 ## ▶️ How to Run
 ```bash
-pip install flask
+pip install -r requirements.txt
 python app.py
